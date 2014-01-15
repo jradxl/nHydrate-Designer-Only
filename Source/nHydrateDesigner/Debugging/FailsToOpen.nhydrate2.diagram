@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<nHydrateDiagram dslVersion="99.99.0.1" Id="00b465d0-78ae-44c6-930e-425706e67880" absoluteBounds="0, 0, 11, 8.5" name="Sample" displayType="true">
+  <nHydrateModelMoniker Id="117bbb1b-c19a-4b72-bc05-3b4f426ebf59" />
+  <nestedChildShapes>
+    <entityShape Id="00d2d7df-dde6-434e-9bd7-f139b2bb4fe6" absoluteBounds="0.5, 1.125, 2, 0.85169108072916666" fillColor="0, 122, 204" textColor="White" outlineColor="Gray" outlineDashStyle="Solid">
+      <entityMoniker name="/117bbb1b-c19a-4b72-bc05-3b4f426ebf59/Entity1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="716dbf40-39df-48b3-8854-b30cddcde694" absoluteBounds="0.515, 1.435, 1.9700000000000002, 0.44169108072916657" name="EntityFieldCompartment" />
+      </nestedChildShapes>
+    </entityShape>
+  </nestedChildShapes>
+</nHydrateDiagram>

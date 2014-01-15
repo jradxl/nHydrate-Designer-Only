@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.10318</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B230FB92-2041-44DB-9B30-41D8646F36DB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Debugging</RootNamespace>
+    <AssemblyName>Debugging</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Dsl\GeneratedCode\nHydrateDesignerSchema.xsd">
+      <Link>nHydrateDesignerSchema.xsd</Link>
+      <SubType>
+      </SubType>
+    </None>
+    <None Include="TwoEntities-NoFields-OpensOK.nhydrate2">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TwoEntities-NoFields-OpensOK.nhydrate2.diagram">
+      <DependentUpon>TwoEntities-NoFields-OpensOK.nhydrate2</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="nHydrateDesignerReport.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>nHydrateDesignerReport.txt</LastGenOutput>
+    </None>
+    <None Include="FailsToOpen.nhydrate2">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FailsToOpen.nhydrate2.diagram">
+      <DependentUpon>FailsToOpen.nhydrate2</DependentUpon>
+    </None>
+    <None Include="Blank-OpensOK.nhydrate2">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Blank-OpensOK.nhydrate2.diagram">
+      <DependentUpon>Blank-OpensOK.nhydrate2</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4df5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="nHydrateDesignerReport.txt">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>nHydrateDesignerReport.tt</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

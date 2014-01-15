@@ -1,0 +1,17 @@
+﻿<!--DSL Tools Language Template-->
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TemplateData>
+		<TemplateID>{210e0b96-078b-4df0-b56e-5b6998e1eefc}</TemplateID>
+		<Name Package="{36220dab-63c7-4daa-860c-fc548bf48888}" ID="103"/>
+		<Description Package="{36220dab-63c7-4daa-860c-fc548bf48888}" ID="102"/>
+		<Icon Package="{36220dab-63c7-4daa-860c-fc548bf48888}" ID="201" />
+		<ProjectType>VisualBasic</ProjectType>
+		<SortOrder>360</SortOrder>
+		<DefaultName>nHydrate2.nhydrate2</DefaultName>
+	</TemplateData>
+	<TemplateContent>
+		<ProjectItem TargetFileName="$fileinputname$.nhydrate2">nhydrate2.nhydrate2</ProjectItem>
+		<ProjectItem TargetFileName="$fileinputname$.nhydrate2.diagram">nhydrate2.diagram</ProjectItem>
+	</TemplateContent>
+</VSTemplate>
+

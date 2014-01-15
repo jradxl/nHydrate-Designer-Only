@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<nHydrateModel dslVersion="99.99.0.1" Id="509b53ba-49ba-4d95-ba5a-cba7f83def50" sQLServerType="SQL2008" modelVersion="5.1.2.115" diagramVisibility="Function, StoredProcedure, View" supportedPlatforms="SQLServer">
+  <entities>
+    <entity Id="48749d2f-7ff9-45cd-8744-21203d8d609c" name="Entity1" allowCreateAudit="false" allowModifyAudit="false" allowTimestamp="false" enforcePrimaryKey="false">
+      <childEntities>
+        <entityHasEntities Id="f3c2548e-edaf-4658-8864-dc0619c00c66">
+          <entityMoniker name="/509b53ba-49ba-4d95-ba5a-cba7f83def50/Entity2" />
+        </entityHasEntities>
+      </childEntities>
+    </entity>
+    <entity Id="ba1b369d-c2d5-4f40-ab67-8aaf09516735" name="Entity2" allowCreateAudit="false" allowModifyAudit="false" allowTimestamp="false" enforcePrimaryKey="false">
+      <indexes>
+        <entityHasIndexes Id="73488b03-920b-40e5-8318-237111c00cb6">
+          <index Id="81da6425-603d-4ca5-a687-12b5a3cb67c4" parentEntityID="00000000-0000-0000-0000-000000000000" isUnique="true" indexType="PrimaryKey">
+            <indexColumns>
+              <indexHasIndexColumns Id="f5f02363-6d1d-4615-97b9-129e8d6c0b34">
+                <indexColumn Id="657811ed-037c-4b7c-92cc-9a4ad09aacd0" fieldID="e438860a-c0e8-406b-8292-83f085ec3149" />
+              </indexHasIndexColumns>
+            </indexColumns>
+          </index>
+        </entityHasIndexes>
+      </indexes>
+    </entity>
+  </entities>
+</nHydrateModel>

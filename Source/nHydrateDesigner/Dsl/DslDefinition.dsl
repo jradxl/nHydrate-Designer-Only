@@ -3936,7 +3936,7 @@
     <XmlSerializationDefinition CustomPostLoad="true">
       <XmlSerializationBehaviorMoniker Name="nHydrate2SerializationBehavior" />
     </XmlSerializationDefinition>
-    <ToolboxTab TabText="nHydrate">
+    <ToolboxTab TabText="nHydrate Designer">
       <ElementTool Name="Entity" ToolboxIcon="Resources\entity.bmp" Caption="Entity" Tooltip="Create an Entity" HelpKeyword="Entity">
         <DomainClassMoniker Name="Entity" />
       </ElementTool>

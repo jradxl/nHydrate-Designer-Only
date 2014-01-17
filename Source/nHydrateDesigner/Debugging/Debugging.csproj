@@ -42,28 +42,17 @@
       <SubType>
       </SubType>
     </None>
-    <None Include="TwoEntities-NoFields-OpensOK.nhydrate2">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="TwoEntities-NoFields-OpensOK.nhydrate2.diagram">
-      <DependentUpon>TwoEntities-NoFields-OpensOK.nhydrate2</DependentUpon>
-      <SubType>Designer</SubType>
+    <None Include="Sample.nhydrate2" />
+    <None Include="Sample.nhydrate2.diagram">
+      <DependentUpon>Sample.nhydrate2</DependentUpon>
     </None>
     <None Include="nHydrateDesignerReport.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>nHydrateDesignerReport.txt</LastGenOutput>
     </None>
-    <None Include="FailsToOpen.nhydrate2">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="FailsToOpen.nhydrate2.diagram">
-      <DependentUpon>FailsToOpen.nhydrate2</DependentUpon>
-    </None>
-    <None Include="Blank-OpensOK.nhydrate2">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Blank-OpensOK.nhydrate2.diagram">
-      <DependentUpon>Blank-OpensOK.nhydrate2</DependentUpon>
+    <None Include="Test-Blank.nhydrate2" />
+    <None Include="Test-Blank.nhydrate2.diagram">
+      <DependentUpon>Test-Blank.nhydrate2</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>

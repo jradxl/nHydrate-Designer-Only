@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<nHydrateModel dslVersion="99.99.0.1" Id="509b53ba-49ba-4d95-ba5a-cba7f83def50" sQLServerType="SQL2008" modelVersion="5.1.2.115" diagramVisibility="Function, StoredProcedure, View" supportedPlatforms="SQLServer">
+  <entities>
+    <entity Id="48749d2f-7ff9-45cd-8744-21203d8d609c" name="Entity1" allowCreateAudit="false" allowModifyAudit="false" allowTimestamp="false" enforcePrimaryKey="false">
+      <childEntities>
+        <entityHasEntities Id="f3c2548e-edaf-4658-8864-dc0619c00c66">
+          <entityMoniker name="/509b53ba-49ba-4d95-ba5a-cba7f83def50/Entity2" />
+        </entityHasEntities>
+      </childEntities>
+      <fields>
+        <entityHasFields Id="cfb9fba1-2f85-4c8e-8bc4-a0d49d8c0452">
+          <field Id="f74ec86a-e2e8-4bd4-b9a6-f448120861b0" name="Entity1ID" nullable="false" dataType="UniqueIdentifier" isIndexed="true" isUnique="true" length="16" min="NaN" max="NaN" isPrimaryKey="true" scale="0" />
+        </entityHasFields>
+        <entityHasFields Id="7b6d8fa1-4fb5-4e79-9435-85720aea5c37">
+          <field Id="c0cfa945-d528-4806-9e9d-3582482bfa8e" name="Name" min="NaN" max="NaN" scale="0" />
+        </entityHasFields>
+        <entityHasFields Id="cb2323cb-5f9d-4c65-96a5-f6925c84f1e4">
+          <field Id="d7e89e83-82dc-465d-b2db-9817433b123a" name="Entity2ID" min="NaN" max="NaN" scale="0" />
+        </entityHasFields>
+      </fields>
+      <indexes>
+        <entityHasIndexes Id="00c9682c-d989-4547-88ff-db53755788a2">
+          <index Id="c69386f1-2072-4cc1-8e5b-ac2a52cd2e54" parentEntityID="48749d2f-7ff9-45cd-8744-21203d8d609c" isUnique="true" indexType="PrimaryKey" clustered="true">
+            <indexColumns>
+              <indexHasIndexColumns Id="dd31480e-c798-4c5f-9317-7a557ada517e">
+                <indexColumn Id="2fa53fa7-31e5-4c9a-adda-802767a98215" fieldID="f74ec86a-e2e8-4bd4-b9a6-f448120861b0" />
+              </indexHasIndexColumns>
+            </indexColumns>
+          </index>
+        </entityHasIndexes>
+      </indexes>
+    </entity>
+    <entity Id="ba1b369d-c2d5-4f40-ab67-8aaf09516735" name="Entity2" allowCreateAudit="false" allowModifyAudit="false" allowTimestamp="false" enforcePrimaryKey="false">
+      <childEntities>
+        <entityHasEntities Id="fe0faa0e-85de-4cef-b3aa-fdbad8d1b7c8">
+          <entityMoniker name="/509b53ba-49ba-4d95-ba5a-cba7f83def50/Entity3" />
+        </entityHasEntities>
+      </childEntities>
+      <fields>
+        <entityHasFields Id="0a65a6c8-b3d3-4e6e-a7c3-7a13c86568b7">
+          <field Id="52d245c1-74a5-4858-90c1-4b0fec330cbc" name="Entity2ID" nullable="false" dataType="UniqueIdentifier" isIndexed="true" isUnique="true" length="16" min="NaN" max="NaN" isPrimaryKey="true" scale="0" />
+        </entityHasFields>
+        <entityHasFields Id="ac3ca56a-46a7-4e70-a90f-3f76e2a0aa03">
+          <field Id="56cabcda-845b-4768-87e7-8bfc7f040fbb" name="Name" min="NaN" max="NaN" scale="0" />
+        </entityHasFields>
+      </fields>
+      <indexes>
+        <entityHasIndexes Id="73488b03-920b-40e5-8318-237111c00cb6">
+          <index Id="81da6425-603d-4ca5-a687-12b5a3cb67c4" parentEntityID="00000000-0000-0000-0000-000000000000" isUnique="true" indexType="PrimaryKey">
+            <indexColumns>
+              <indexHasIndexColumns Id="f5f02363-6d1d-4615-97b9-129e8d6c0b34">
+                <indexColumn Id="657811ed-037c-4b7c-92cc-9a4ad09aacd0" fieldID="e438860a-c0e8-406b-8292-83f085ec3149" />
+              </indexHasIndexColumns>
+            </indexColumns>
+          </index>
+        </entityHasIndexes>
+      </indexes>
+    </entity>
+    <entity Id="97a15bb5-2040-4b21-a087-7c176b5da991" name="Entity3">
+      <fields>
+        <entityHasFields Id="135698e9-2d3c-4e8d-a524-da5442a34684">
+          <field Id="de2c7b98-ddd3-438f-85e9-b02972ee6e6d" name="ID" nullable="false" dataType="Int" identity="Database" isIndexed="true" isUnique="true" length="4" min="NaN" max="NaN" isPrimaryKey="true" scale="0" />
+        </entityHasFields>
+      </fields>
+      <indexes>
+        <entityHasIndexes Id="bbe270a6-a75a-49b0-a12e-e7bc490eb3cc">
+          <index Id="636f1520-3f34-490a-8a04-b104d7862d15" parentEntityID="00000000-0000-0000-0000-000000000000" isUnique="true" indexType="PrimaryKey">
+            <indexColumns>
+              <indexHasIndexColumns Id="18a6980a-de77-4244-b063-1a5979baaaf6">
+                <indexColumn Id="2c7d7cb4-0a26-4bac-bd78-5961706f275e" fieldID="de2c7b98-ddd3-438f-85e9-b02972ee6e6d" />
+              </indexHasIndexColumns>
+            </indexColumns>
+          </index>
+        </entityHasIndexes>
+      </indexes>
+    </entity>
+  </entities>
+</nHydrateModel>

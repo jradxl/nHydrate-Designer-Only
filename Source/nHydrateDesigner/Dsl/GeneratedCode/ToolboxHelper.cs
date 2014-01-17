@@ -94,7 +94,7 @@ namespace nHydrate2.Dsl
 		{
 			get
 			{
-				return global::nHydrate2.Dsl.nHydrate2DomainModel.SingletonResourceManager.GetString("nHydrateToolboxTab", global::System.Globalization.CultureInfo.CurrentUICulture);
+				return global::nHydrate2.Dsl.nHydrate2DomainModel.SingletonResourceManager.GetString("nHydrate DesignerToolboxTab", global::System.Globalization.CultureInfo.CurrentUICulture);
 			}
 		}
 		
@@ -162,8 +162,8 @@ namespace nHydrate2.Dsl
 						1, // Position relative to other items in the same toolbox tab.
 						resourceManager.GetString("EntityToolboxItem", resourceCulture), // Localized display name for the item.
 						(global::System.Drawing.Bitmap)DslDiagrams::ImageHelper.GetImage(resourceManager.GetObject("EntityToolboxBitmap", resourceCulture)), // Image displayed next to the toolbox item.
-						"nHydrate2.DslPackage.nHydrateToolboxTab", // Unique identifier (non-localized) for the toolbox item tab.
-						resourceManager.GetString("nHydrateToolboxTab", resourceCulture), // Localized display name for the toolbox tab.
+						"nHydrate2.DslPackage.nHydrate DesignerToolboxTab", // Unique identifier (non-localized) for the toolbox item tab.
+						resourceManager.GetString("nHydrate DesignerToolboxTab", resourceCulture), // Localized display name for the toolbox tab.
 						"Entity", // F1 help keyword for the toolbox item.
 						resourceManager.GetString("EntityToolboxTooltip", resourceCulture), // Localized tooltip text for the toolbox item.
 						CreateElementToolPrototype(store, global::nHydrate2.Dsl.Entity.DomainClassId), // ElementGroupPrototype (data object) representing model element on the toolbox.
@@ -179,8 +179,8 @@ namespace nHydrate2.Dsl
 						2, // Position relative to other items in the same toolbox tab.
 						resourceManager.GetString("AssociationToolboxItem", resourceCulture), // Localized display name for the item.
 						(global::System.Drawing.Bitmap)DslDiagrams::ImageHelper.GetImage(resourceManager.GetObject("AssociationToolboxBitmap", resourceCulture)), // Image displayed next to the toolbox item.				
-						"nHydrate2.DslPackage.nHydrateToolboxTab", // Unique identifier (non-localized) for the toolbox item tab.
-						resourceManager.GetString("nHydrateToolboxTab", resourceCulture), // Localized display name for the toolbox tab.
+						"nHydrate2.DslPackage.nHydrate DesignerToolboxTab", // Unique identifier (non-localized) for the toolbox item tab.
+						resourceManager.GetString("nHydrate DesignerToolboxTab", resourceCulture), // Localized display name for the toolbox tab.
 						"", // F1 help keyword for the toolbox item.
 						resourceManager.GetString("AssociationToolboxTooltip", resourceCulture), // Localized tooltip text for the toolbox item.
 						null, // Connector toolbox items do not have an underlying data object.
@@ -197,8 +197,8 @@ namespace nHydrate2.Dsl
 						3, // Position relative to other items in the same toolbox tab.
 						resourceManager.GetString("InheritanceToolboxItem", resourceCulture), // Localized display name for the item.
 						(global::System.Drawing.Bitmap)DslDiagrams::ImageHelper.GetImage(resourceManager.GetObject("InheritanceToolboxBitmap", resourceCulture)), // Image displayed next to the toolbox item.				
-						"nHydrate2.DslPackage.nHydrateToolboxTab", // Unique identifier (non-localized) for the toolbox item tab.
-						resourceManager.GetString("nHydrateToolboxTab", resourceCulture), // Localized display name for the toolbox tab.
+						"nHydrate2.DslPackage.nHydrate DesignerToolboxTab", // Unique identifier (non-localized) for the toolbox item tab.
+						resourceManager.GetString("nHydrate DesignerToolboxTab", resourceCulture), // Localized display name for the toolbox tab.
 						"", // F1 help keyword for the toolbox item.
 						resourceManager.GetString("InheritanceToolboxTooltip", resourceCulture), // Localized tooltip text for the toolbox item.
 						null, // Connector toolbox items do not have an underlying data object.
@@ -214,8 +214,8 @@ namespace nHydrate2.Dsl
 						4, // Position relative to other items in the same toolbox tab.
 						resourceManager.GetString("ViewToolboxItem", resourceCulture), // Localized display name for the item.
 						(global::System.Drawing.Bitmap)DslDiagrams::ImageHelper.GetImage(resourceManager.GetObject("ViewToolboxBitmap", resourceCulture)), // Image displayed next to the toolbox item.
-						"nHydrate2.DslPackage.nHydrateToolboxTab", // Unique identifier (non-localized) for the toolbox item tab.
-						resourceManager.GetString("nHydrateToolboxTab", resourceCulture), // Localized display name for the toolbox tab.
+						"nHydrate2.DslPackage.nHydrate DesignerToolboxTab", // Unique identifier (non-localized) for the toolbox item tab.
+						resourceManager.GetString("nHydrate DesignerToolboxTab", resourceCulture), // Localized display name for the toolbox tab.
 						"View", // F1 help keyword for the toolbox item.
 						resourceManager.GetString("ViewToolboxTooltip", resourceCulture), // Localized tooltip text for the toolbox item.
 						CreateElementToolPrototype(store, global::nHydrate2.Dsl.View.DomainClassId), // ElementGroupPrototype (data object) representing model element on the toolbox.
@@ -230,8 +230,8 @@ namespace nHydrate2.Dsl
 						5, // Position relative to other items in the same toolbox tab.
 						resourceManager.GetString("FunctionToolboxItem", resourceCulture), // Localized display name for the item.
 						(global::System.Drawing.Bitmap)DslDiagrams::ImageHelper.GetImage(resourceManager.GetObject("FunctionToolboxBitmap", resourceCulture)), // Image displayed next to the toolbox item.
-						"nHydrate2.DslPackage.nHydrateToolboxTab", // Unique identifier (non-localized) for the toolbox item tab.
-						resourceManager.GetString("nHydrateToolboxTab", resourceCulture), // Localized display name for the toolbox tab.
+						"nHydrate2.DslPackage.nHydrate DesignerToolboxTab", // Unique identifier (non-localized) for the toolbox item tab.
+						resourceManager.GetString("nHydrate DesignerToolboxTab", resourceCulture), // Localized display name for the toolbox tab.
 						"Function", // F1 help keyword for the toolbox item.
 						resourceManager.GetString("FunctionToolboxTooltip", resourceCulture), // Localized tooltip text for the toolbox item.
 						CreateElementToolPrototype(store, global::nHydrate2.Dsl.Function.DomainClassId), // ElementGroupPrototype (data object) representing model element on the toolbox.
@@ -246,8 +246,8 @@ namespace nHydrate2.Dsl
 						6, // Position relative to other items in the same toolbox tab.
 						resourceManager.GetString("StoredProcedureToolboxItem", resourceCulture), // Localized display name for the item.
 						(global::System.Drawing.Bitmap)DslDiagrams::ImageHelper.GetImage(resourceManager.GetObject("StoredProcedureToolboxBitmap", resourceCulture)), // Image displayed next to the toolbox item.
-						"nHydrate2.DslPackage.nHydrateToolboxTab", // Unique identifier (non-localized) for the toolbox item tab.
-						resourceManager.GetString("nHydrateToolboxTab", resourceCulture), // Localized display name for the toolbox tab.
+						"nHydrate2.DslPackage.nHydrate DesignerToolboxTab", // Unique identifier (non-localized) for the toolbox item tab.
+						resourceManager.GetString("nHydrate DesignerToolboxTab", resourceCulture), // Localized display name for the toolbox tab.
 						"StoredProcedure", // F1 help keyword for the toolbox item.
 						resourceManager.GetString("StoredProcedureToolboxTooltip", resourceCulture), // Localized tooltip text for the toolbox item.
 						CreateElementToolPrototype(store, global::nHydrate2.Dsl.StoredProcedure.DomainClassId), // ElementGroupPrototype (data object) representing model element on the toolbox.
@@ -263,8 +263,8 @@ namespace nHydrate2.Dsl
 						7, // Position relative to other items in the same toolbox tab.
 						resourceManager.GetString("ViewLinkToolboxItem", resourceCulture), // Localized display name for the item.
 						(global::System.Drawing.Bitmap)DslDiagrams::ImageHelper.GetImage(resourceManager.GetObject("ViewLinkToolboxBitmap", resourceCulture)), // Image displayed next to the toolbox item.				
-						"nHydrate2.DslPackage.nHydrateToolboxTab", // Unique identifier (non-localized) for the toolbox item tab.
-						resourceManager.GetString("nHydrateToolboxTab", resourceCulture), // Localized display name for the toolbox tab.
+						"nHydrate2.DslPackage.nHydrate DesignerToolboxTab", // Unique identifier (non-localized) for the toolbox item tab.
+						resourceManager.GetString("nHydrate DesignerToolboxTab", resourceCulture), // Localized display name for the toolbox tab.
 						"", // F1 help keyword for the toolbox item.
 						resourceManager.GetString("ViewLinkToolboxTooltip", resourceCulture), // Localized tooltip text for the toolbox item.
 						null, // Connector toolbox items do not have an underlying data object.

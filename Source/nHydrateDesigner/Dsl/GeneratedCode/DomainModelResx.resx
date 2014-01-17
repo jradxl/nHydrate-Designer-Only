@@ -4461,8 +4461,8 @@
     <value>Display Type</value>
     <comment>DisplayName for DomainProperty &apos;DisplayType&apos; on DomainClass &apos;nHydrateDiagram&apos;</comment>
   </data>
-  <data name="nHydrateToolboxTab" xml:space="preserve">
-    <value>nHydrate</value>
+  <data name="nHydrate DesignerToolboxTab" xml:space="preserve">
+    <value>nHydrate Designer</value>
     <comment>Toolbox item tab name</comment>
   </data>
   <data name="EntityToolboxItem" xml:space="preserve">

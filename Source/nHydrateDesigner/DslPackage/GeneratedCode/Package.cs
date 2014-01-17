@@ -27,50 +27,50 @@ namespace nHydrate2.DslPackage
 	[VSShell::PackageRegistration(RegisterUsing = VSShell::RegistrationMethod.Assembly, UseManagedResourcesOnly = true)]
 	[VSShell::ProvideToolWindow(typeof(nHydrate2ExplorerToolWindow), MultiInstances = false, Style = VSShell::VsDockStyle.Tabbed, Orientation = VSShell::ToolWindowOrientation.Right, Window = "{3AE79031-E1BC-11D0-8F78-00A0C9110057}")]
 	[VSShell::ProvideToolWindowVisibility(typeof(nHydrate2ExplorerToolWindow), Constants.nHydrate2EditorFactoryId)]
-	[VSShell::ProvideStaticToolboxGroup("@nHydrateToolboxTab;nHydrate2.Dsl.dll", "nHydrate2.DslPackage.nHydrateToolboxTab")]
-	[VSShell::ProvideStaticToolboxItem("nHydrate2.DslPackage.nHydrateToolboxTab",
+	[VSShell::ProvideStaticToolboxGroup("@nHydrate DesignerToolboxTab;nHydrate2.Dsl.dll", "nHydrate2.DslPackage.nHydrate DesignerToolboxTab")]
+	[VSShell::ProvideStaticToolboxItem("nHydrate2.DslPackage.nHydrate DesignerToolboxTab",
 					"@EntityToolboxItem;nHydrate2.Dsl.dll", 
 					"nHydrate2.DslPackage.EntityToolboxItem", 
 					"CF_TOOLBOXITEMCONTAINER,CF_TOOLBOXITEMCONTAINER_HASH,CF_TOOLBOXITEMCONTAINER_CONTENTS", 
 					"Entity", 
 					"@EntityToolboxBitmap;nHydrate2.Dsl.dll", 
 					0xff00ff)]
-	[VSShell::ProvideStaticToolboxItem("nHydrate2.DslPackage.nHydrateToolboxTab",
+	[VSShell::ProvideStaticToolboxItem("nHydrate2.DslPackage.nHydrate DesignerToolboxTab",
 					"@AssociationToolboxItem;nHydrate2.Dsl.dll", 
 					"nHydrate2.DslPackage.AssociationToolboxItem", 
 					"CF_TOOLBOXITEMCONTAINER,CF_TOOLBOXITEMCONTAINER_HASH,CF_TOOLBOXITEMCONTAINER_CONTENTS", 
 					"", 
 					"@AssociationToolboxBitmap;nHydrate2.Dsl.dll", 
 					0xff00ff)]
-	[VSShell::ProvideStaticToolboxItem("nHydrate2.DslPackage.nHydrateToolboxTab",
+	[VSShell::ProvideStaticToolboxItem("nHydrate2.DslPackage.nHydrate DesignerToolboxTab",
 					"@InheritanceToolboxItem;nHydrate2.Dsl.dll", 
 					"nHydrate2.DslPackage.InheritanceToolboxItem", 
 					"CF_TOOLBOXITEMCONTAINER,CF_TOOLBOXITEMCONTAINER_HASH,CF_TOOLBOXITEMCONTAINER_CONTENTS", 
 					"", 
 					"@InheritanceToolboxBitmap;nHydrate2.Dsl.dll", 
 					0xff00ff)]
-	[VSShell::ProvideStaticToolboxItem("nHydrate2.DslPackage.nHydrateToolboxTab",
+	[VSShell::ProvideStaticToolboxItem("nHydrate2.DslPackage.nHydrate DesignerToolboxTab",
 					"@ViewToolboxItem;nHydrate2.Dsl.dll", 
 					"nHydrate2.DslPackage.ViewToolboxItem", 
 					"CF_TOOLBOXITEMCONTAINER,CF_TOOLBOXITEMCONTAINER_HASH,CF_TOOLBOXITEMCONTAINER_CONTENTS", 
 					"View", 
 					"@ViewToolboxBitmap;nHydrate2.Dsl.dll", 
 					0xff00ff)]
-	[VSShell::ProvideStaticToolboxItem("nHydrate2.DslPackage.nHydrateToolboxTab",
+	[VSShell::ProvideStaticToolboxItem("nHydrate2.DslPackage.nHydrate DesignerToolboxTab",
 					"@FunctionToolboxItem;nHydrate2.Dsl.dll", 
 					"nHydrate2.DslPackage.FunctionToolboxItem", 
 					"CF_TOOLBOXITEMCONTAINER,CF_TOOLBOXITEMCONTAINER_HASH,CF_TOOLBOXITEMCONTAINER_CONTENTS", 
 					"Function", 
 					"@FunctionToolboxBitmap;nHydrate2.Dsl.dll", 
 					0xff00ff)]
-	[VSShell::ProvideStaticToolboxItem("nHydrate2.DslPackage.nHydrateToolboxTab",
+	[VSShell::ProvideStaticToolboxItem("nHydrate2.DslPackage.nHydrate DesignerToolboxTab",
 					"@StoredProcedureToolboxItem;nHydrate2.Dsl.dll", 
 					"nHydrate2.DslPackage.StoredProcedureToolboxItem", 
 					"CF_TOOLBOXITEMCONTAINER,CF_TOOLBOXITEMCONTAINER_HASH,CF_TOOLBOXITEMCONTAINER_CONTENTS", 
 					"StoredProcedure", 
 					"@StoredProcedureToolboxBitmap;nHydrate2.Dsl.dll", 
 					0xff00ff)]
-	[VSShell::ProvideStaticToolboxItem("nHydrate2.DslPackage.nHydrateToolboxTab",
+	[VSShell::ProvideStaticToolboxItem("nHydrate2.DslPackage.nHydrate DesignerToolboxTab",
 					"@ViewLinkToolboxItem;nHydrate2.Dsl.dll", 
 					"nHydrate2.DslPackage.ViewLinkToolboxItem", 
 					"CF_TOOLBOXITEMCONTAINER,CF_TOOLBOXITEMCONTAINER_HASH,CF_TOOLBOXITEMCONTAINER_CONTENTS", 

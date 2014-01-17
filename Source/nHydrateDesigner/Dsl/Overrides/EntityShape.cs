@@ -272,12 +272,19 @@ namespace nHydrate2.Dsl
 
             if (_images.Count == 0)
             {
-                _images.Add("field", new System.Drawing.Bitmap(assembly.GetManifestResourceStream(assembly.GetName().Name + ".Resources.field.png")));
-                _images.Add("fkey", new System.Drawing.Bitmap(assembly.GetManifestResourceStream(assembly.GetName().Name + ".Resources.fkey.png")));
-                _images.Add("key", new System.Drawing.Bitmap(assembly.GetManifestResourceStream(assembly.GetName().Name + ".Resources.key.png")));
-                _images.Add("storedproc", new System.Drawing.Bitmap(assembly.GetManifestResourceStream(assembly.GetName().Name + ".Resources.storedproc.png")));
-                _images.Add("composite", new System.Drawing.Bitmap(assembly.GetManifestResourceStream(assembly.GetName().Name + ".Resources.composite.png")));
-                _images.Add("fieldcalculated", new System.Drawing.Bitmap(assembly.GetManifestResourceStream(assembly.GetName().Name + ".Resources.fieldcalculated.png")));
+                try
+                {
+                    _images.Add("field", new System.Drawing.Bitmap(assembly.GetManifestResourceStream(assembly.GetName().Name + ".Resources.field.png")));
+                    _images.Add("fkey", new System.Drawing.Bitmap(assembly.GetManifestResourceStream(assembly.GetName().Name + ".Resources.fkey.png")));
+                    _images.Add("key", new System.Drawing.Bitmap(assembly.GetManifestResourceStream(assembly.GetName().Name + ".Resources.key.png")));
+                    _images.Add("storedproc", new System.Drawing.Bitmap(assembly.GetManifestResourceStream(assembly.GetName().Name + ".Resources.storedproc.png")));
+                    _images.Add("composite", new System.Drawing.Bitmap(assembly.GetManifestResourceStream(assembly.GetName().Name + ".Resources.composite.png")));
+                    _images.Add("fieldcalculated", new System.Drawing.Bitmap(assembly.GetManifestResourceStream(assembly.GetName().Name + ".Resources.fieldcalculated.png")));
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception(String.Format("Resource Bitmaps must be Embedded Resources: '{0}'",ex.Message));
+                }
             }
 
             if (mel is nHydrate2.Dsl.Field)
